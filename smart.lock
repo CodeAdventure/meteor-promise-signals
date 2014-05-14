@@ -1,0 +1,30 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "promise-signals": {
+        "path": "."
+      }
+    },
+    "packages": {
+      "promise-signals": {
+        "path": "."
+      },
+      "mozart": {
+        "git": "https://github.com/CodeAdventure/meteor-oop.git",
+        "tag": "v0.2.0",
+        "commit": "70a5295b6d9878ef71350380fd2f93e06d321a2b"
+      },
+      "js-signals": {
+        "git": "https://github.com/CodeAdventure/meteor-js-signals.git",
+        "tag": "v0.1.0",
+        "commit": "3c7efe49de0f0517e4c09bb566ab210b4f6369cd"
+      },
+      "es6-promises": {
+        "git": "https://github.com/CodeAdventure/meteor-es6-promises.git",
+        "tag": "v0.1.0",
+        "commit": "28b272f700765d24a0ff879105a46546094c2f68"
+      }
+    }
+  }
+}
