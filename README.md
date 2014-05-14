@@ -1,4 +1,4 @@
-# Promise Signals
+# Promise Signals [![Build Status](https://github.com/CodeAdventure/meteor-promise-signals.png?branch=master)](https://travis-ci.org/CodeAdventure/meteor-promise-signals)
 
 Javascript Signals ([js-signals](http://millermedeiros.github.io/js-signals/)) that return promises to
 the invoking party that dispatches the signal and expects some return values or reaction.
