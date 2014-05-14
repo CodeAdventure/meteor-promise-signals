@@ -2,10 +2,6 @@ Package.describe({
   summary: 'Signals that return promises when dispatched.'
 });
 
-Npm.depends({
-  'promiscuous': '0.6.0'
-});
-
 Package.on_use(function(api) {
 
   api.use(
