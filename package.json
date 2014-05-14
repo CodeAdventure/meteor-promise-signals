@@ -24,7 +24,6 @@
     "node": ">= 0.6.0"
   },
   "scripts": {
-    "test": "mrt test-packages ./",
     "documentation": "grunt docs"
   },
   "devDependencies": {
