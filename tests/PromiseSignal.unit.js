@@ -104,3 +104,14 @@ Tinytest.addAsync('PromiseSignal - Promises are immediately fulfilled if there a
   promiseSignal.dispatch().then(promiseFulfilledListener);
 
 });
+
+Tinytest.add('PromiseSignal - Promise signals can be sub classed without problems', function(expect) {
+
+  var SubClass = Class('SubClass', { Extends: signals.PromiseSignal }, true);
+
+  var subClassInstance = new SubClass();
+
+  expect.instanceOf(subClassInstance, SubClass);
+  expect.instanceOf(subClassInstance, signals.PromiseSignal);
+
+});

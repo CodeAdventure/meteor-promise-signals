@@ -62,7 +62,7 @@
     Constructor: function() {
 
       // let super class construct this signal
-      this.Class.Super.apply(this, arguments);
+      signals.Signal.apply(this, arguments);
 
       // save reference to original dispatch of signals.Signal
       this._originalDispatchMethod = this.dispatch;
