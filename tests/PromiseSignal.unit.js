@@ -1,6 +1,6 @@
 
 Tinytest.add('PromiseSignal - Extends signals.Signal', function(expect) {
-
+  
   var promiseSignal = new signals.PromiseSignal();
 
   expect.instanceOf(promiseSignal, signals.Signal);

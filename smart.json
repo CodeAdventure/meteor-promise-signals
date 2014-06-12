@@ -3,11 +3,11 @@
   "description": "Signals that return promises when dispatched.",
   "homepage": "https://github.com/CodeAdventure/meteor-promise-signals",
   "author": "Code Adventure",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "git": "https://github.com/CodeAdventure/meteor-promise-signals.git",
   "packages": {
     "mozart": "0.2.0",
-    "js-signals": "0.1.0",
+    "js-signals": "0.1.1",
     "es6-promises": "0.1.0"
   }
 }

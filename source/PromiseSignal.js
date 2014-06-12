@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  Class('signals.PromiseSignal', { Extends: signals.Signal,
+  signals.PromiseSignal = Class('signals.PromiseSignal', { Extends: signals.Signal,
 
     _originalDispatchMethod: null,
 
@@ -87,7 +87,7 @@
 
       var argumentsArray = Array.prototype.slice.call(arguments),
           This = this;
-
+      
       return new Promise(function(fulfill, reject) {
 
         if(This.getNumListeners() == 0) {
@@ -108,6 +108,6 @@
 
     }
 
-  });
+  }, true);
 
 }());
